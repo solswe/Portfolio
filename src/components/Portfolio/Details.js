@@ -211,7 +211,7 @@ function Details() {
                     {item.id === "Korean" && <> {item.title5} </>}
                   </p>
                   <Link
-                    href="https://booktok-project2.netlify.app/"
+                    href="https://solkim.netlify.app/"
                     className="link-font"
                   >
                     Click to see demopage

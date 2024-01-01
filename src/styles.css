@@ -1,0 +1,391 @@
+/* Google font- Abril Fatface */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/* Google font - Literata */
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200;0,7..72,300;0,7..72,400;0,7..72,500;0,7..72,600;0,7..72,700;0,7..72,800;0,7..72,900;1,7..72,200;1,7..72,300;1,7..72,400;1,7..72,500;1,7..72,600;1,7..72,700;1,7..72,800;1,7..72,900&display=swap');
+/* Google font- IBM Plex Sans KR */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&display=swap');
+
+
+/* Navbar */
+.nav-style {
+  display: flex;
+  margin-left: auto;
+  margin-right: 0;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.nav-item {
+  font-size: 16px;
+  margin-right: 18px;
+}
+.nav-icon {
+  font-size: 18px;
+}
+
+/* Home */
+.home-cont {
+  display: block;
+  padding: 7%;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  font-family: 'Literata', serif;
+}
+.home-greeting {
+  font-weight: 900;
+  font-size: 65pt;
+  line-height: 1.2;
+  text-align: center;
+}
+.home-description {
+  text-align: center;
+  font-size: 18px;
+  margin-top: -4%;
+}
+@media (max-width: 1100px) {
+  .home-description {
+    margin-top: 20%;
+  }
+}
+@media (min-width: 1100px) {
+  .home-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home-greeting {
+    font-size: 92px !important;
+    margin-top: -35%;
+    margin-left: -5%;
+  }
+  .home-description {
+    width: 35%;
+    margin-left: 5%;
+  }
+}
+@media (min-width: 1300px) {
+  .home-greeting {
+    font-size: 100px !important;
+    margin-top: -30%;
+  }
+  .home-description {
+    font-size: 18px;
+  }
+}
+.home-link {
+  margin-top: 4%;
+}
+
+/* About */
+.about-layout {
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  width: 100%;
+  height: 100%;
+  padding: 3%;
+}
+.about-title {
+  font-family: 'Literata', serif;
+  font-weight: 800;
+  font-size: 50pt;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.about-main-cont {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 900px){
+  .about-title {
+    margin-bottom: 20px !important;
+  }
+  .about-main-cont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-main-col {
+    width: 100% !important;
+    max-width: 800px !important;
+    padding: 5% !important;;
+  }
+  .about-link {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px !important;
+  }
+}
+.about-main-col {
+  width: 50%;
+  max-width: 680px;
+  padding: 3%;
+}
+.about-intro {
+  font-size: 18px;
+  margin-top: 55px;
+  margin-bottom: -20px;
+}
+.about-link {
+ margin-top: 70px;
+ margin-left: -10px; 
+}
+.about-tabs {
+  display: flex;
+  justify-content: flex-end;
+}
+.about-section {
+  font-size: 17px;
+  margin-top: -15px;
+  background-color: #fadcd93e;
+  padding: 3%;
+  border-radius: 0.25rem;
+}
+.about-subsec {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.about-sec-title {
+  margin-bottom: 8px;
+  font-size: 19px;
+  font-weight: 600;
+}
+.item-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+}
+.item-color {
+  color: #00a8bf;
+}
+.item-des {
+  margin-top: 10px;
+}
+.nest-li {
+  margin-left: 23px;
+}
+.item-skill-des {
+  margin-bottom: 20px; 
+}
+.chips {
+  margin-top: 7px;
+  margin-right: 7px;
+}
+
+/* Project */
+.project-layout {  
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  font-size: 16.5px;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  padding: 3%;
+  padding-bottom: 10%;
+}
+.summary-cards-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
+}
+@media (min-width: 1500px) {
+  .summary-cards-cont {
+    gap: 10%;
+  }
+}
+.summary-card {
+  flex: 1 1 100%;
+  padding: 1%;
+  padding-top: 3%;
+  box-shadow: none;
+  background-color: #ffffff00;
+  max-width: 570px;
+  margin-bottom: 10%;
+}
+@media (min-width: 900px) {
+  .summary-card {
+    flex: 1 1 calc(50% - 5%);
+    margin-bottom: 5%;
+  }
+}
+.project-screen {
+  width: 32rem;
+  height: 20rem;
+}
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: -10px;
+}
+.card-title {
+  font-weight: 500;
+  font-size: 38px;
+  margin-top: 5px;
+}
+.card-body {
+  margin-bottom: 10px;
+}
+.project-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.project-link {
+  margin-top: -2%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: 2%;
+}
+@media (max-width: 900px) {
+  .project-link {
+    margin-right: 4%;
+  }
+}
+
+/* Project Detail Outline */
+.pdp-main-cont{
+  padding: 6%;
+}
+.pdp-title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 2%;
+}
+.pdp-breadcrumbs{
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+/* Deatil - Project description */
+.detail-layout {
+  font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.detail-cont {
+  display: flex;
+  height: 100%;
+  margin-top: 6rem;
+}
+.detail-description {
+  margin-left: 2%;
+}
+.detail-nav {
+  position: sticky;
+  position: -webkit-sticky;
+  align-self: flex-start;
+  top: 30%;
+  margin-top: 1%;
+  min-width: 22%;
+  font-size: 18px;
+}
+@media (max-width: 900px) {
+  .detail-nav {
+    display: none;
+  }
+}
+@media (min-width: 1000px) {
+  .detail-nav {
+    min-width: 20%;
+  }
+}
+.detail-section {
+  margin-bottom: 70px;
+}
+.detail-tab {
+  float: right;
+}
+.detail-title {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.detail-subtitle {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.detail-subtitle2 {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+.detail-sub-section {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.bg-section-box {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+}
+.bg-section {
+  margin-right: 20px;
+  margin-left: 5px;
+  margin-bottom: 23px;
+  font-size: 18px;
+}
+.key-li {
+  padding-left: 1.5em;
+  text-indent: -1.4em;
+}
+.key-link {
+  font-size: 18px;
+  text-indent: -0.01em;
+}
+.key-img {
+  padding: 3px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-hover:hover {
+ color: #01c6e0;
+ cursor: pointer;
+}
+.link-font {
+  font-size: 18px;
+}
+
+/* ImgSlider */
+.imgSlider-cont {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+.img-chevron {
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #ffffff00;
+  color: #02d3ee;
+}
+.img-cont {
+  width: 80%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.detail-photo {
+  padding: 2%;  
+  object-fit: cover;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+.pagination-icon {
+  font-size: 10px;
+  margin: 6px;
+  cursor: pointer;
+  color: #83b2b6c0;
+}
+.pagination-icon.active {
+  color: #12d9f4;
+}
+.pagination-icon:hover {
+  color: #12d9f4;
+}
+
+/* Portfolio */
+.port-lists {
+  margin-top: 5px;
+}

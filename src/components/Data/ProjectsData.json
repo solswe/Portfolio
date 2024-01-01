@@ -1,0 +1,42 @@
+{
+  "projects" : 
+  [  
+    {
+      "category" : "individual",
+      "type" : "FRONTEND DEVELOPMENT",
+      "title" : "Portfolio",
+      "sumEng" : "The website you're currently exploring.",
+      "sumKor" : "지금 보고 있는 포트폴리오 웹 👀",
+      "img" : "/pics/port-main.png",
+      "url" : "/portfolio"
+    },
+    {
+      "category" : "group",
+      "type" : "FULL STACK DEVELOPMENT",
+      "title" : "YumYumTok",
+      "sumEng" : "A food journal designed to efficiently manage and organize your dining experiences and preferences.",
+      "sumKor" : "미식가들을 위한 나만의 맛집 다이어리.",
+      "img" : "/pics/yum-main.png",
+      "url" : "/yumyumtok"
+    },
+    {
+      "category" : "group",
+      "type" : "FULL STACK DEVELOPMENT",
+      "title" : "BookTok",
+      "sumEng" : "An online hub for book enthusiasts to explore literature and engage with a community of fellow readers.",
+      "sumKor" : "애독자들을 위한 도서 커뮤니티.",
+      "img" : "/pics/book-main.png",
+      "url" : "booktok"
+    },
+    {
+      "category" : "individual",
+      "type" : "FULL STACK DEVELOPMENT",
+      "title" : "What U Watch",
+      "sumEng" : "A platform for gathering survey responses about movies and TV shows.",
+      "sumKor" : "영화, 티비 프로그램 관련 설문 조사 사이트.",
+      "img" : "/pics/wuw-main.png",
+      "url" : "whatuwatch"
+    }
+
+  ]
+}

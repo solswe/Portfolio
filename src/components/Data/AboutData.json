@@ -1,0 +1,39 @@
+{
+  "about" : 
+    [ 
+      {
+        "language": "English",
+        "work": "Web Developer Intern",
+        "work_location": "Massachusetts, USA",
+        "work_note": "Developed the client-side of web pages in collaboration with backend developers and UI/UX designers",
+        "edu": "BA in Computer Science, Minor in Statistics",
+        "edu_date": "Graduated in 2023",
+        "edu_location": "Minnesota, USA",
+        "edu_social": "Social: App Developers Club",
+        "edu_coursework": "Relevant Coursework:",
+        "others": "",
+        "skill1": "Programming languages",
+        "skill2": "Framework / Library / Other",
+        "skill3": "Database",
+        "skill4": "Language",
+        "skill4_1": ["Korean(Native)", "English(Professional)"]
+      },
+      {
+        "language": "Korean",
+        "work": "웹 개발자 인턴",
+        "work_location": "미국 메사추세츠주",
+        "work_note": "UI/UX 디자이너 및 백엔드 개발자와 협업하여 웹 페이지의 클라이언트 사이드 개발 및 배포",
+        "edu": "컴퓨터 사이언스 학사, 통계학 부전공",
+        "edu_date": "2023년 졸업",
+        "edu_location": "미국 미네소타주",
+        "edu_social": "동아리 활동: App Developers Club",
+        "edu_coursework": "관련 수업:",
+        "others": "",
+        "skill1": "프로그래밍 언어",
+        "skill2": "프레임워크 / 라이브러리 / 기타",
+        "skill3": "데이터베이스",
+        "skill4": "외국어",
+        "skill4_1": ["영어(비즈니스 레벨)"]
+      }
+    ]
+}

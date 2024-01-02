@@ -3,8 +3,8 @@ import { Link, Tabs, Tab, Chip, Button, ButtonGroup } from "@nextui-org/react";
 import jsonData from "../components/Data/AboutData.json";
 
 const links = {
-  "Resume": "https://drive.google.com/file/d/1E-Pojv7I0Np2mzrFG50S51cO58YZr5hH/view?usp=drive_link",
-  "이력서": "http://www.linkedin.com/in/solkims",
+  "Resume": "https://drive.google.com/file/d/1FO1-XhN5xTMtjiiGdrRnXaaHWPaMq74s/view?usp=sharing",
+  "이력서": "https://drive.google.com/file/d/1WKCCVrLw2OZEMu-fsUXnGPWXJzUUET-L/view?usp=sharing",
   "Email": "mailto:solkimswe@gmail.com",
   "Linkedin": "http://www.linkedin.com/in/solkims",
   "Github": "https://github.com/solswe"

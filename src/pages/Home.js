@@ -31,7 +31,7 @@ function Home(){
               <Link 
                 isExternal
                 showAnchorIcon 
-                href="https://drive.google.com/file/d/1E-Pojv7I0Np2mzrFG50S51cO58YZr5hH/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1FO1-XhN5xTMtjiiGdrRnXaaHWPaMq74s/view?usp=sharing"
                 color="secondary"
               >
                 Resume
@@ -40,7 +40,7 @@ function Home(){
               <Link 
                 isExternal
                 showAnchorIcon
-                href="http://www.linkedin.com/in/solkims"
+                href="https://drive.google.com/file/d/1WKCCVrLw2OZEMu-fsUXnGPWXJzUUET-L/view?usp=sharing"
                 color="secondary"
               >
                 이력서
